@@ -32,4 +32,4 @@ paginate_path : "/page:num/"
 target-blank:
     rel: nofollow
 
-header_page_refs: []
+header_page_refs:
