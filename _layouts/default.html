@@ -54,6 +54,9 @@
         
         {% include site-header.html %}
         
+        {% if page.layout == 'default' %}
+        {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
+        {% endif %}
         {% if page.layout == 'home' %}
         {% assign page-tagline = site.description | default: site.github.project_tagline | escape %}
         {% endif %}
