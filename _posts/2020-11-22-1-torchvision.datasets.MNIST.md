@@ -4,7 +4,7 @@ title: "torchvision.datasets.MNIST"
 tagline: "MNIST Dataset 개요"
 ---
 
-the MNIST database of hadwritten digits 는 Yann LeCun(Courant Institute, NYU), Corinna Cortes(Google Labs, New York), Christopher J.C. Burges(Microsoft Research, Redmond) 가 제공하는 학습용 데이터이다. NIST 데이터의 하위 분류에 속하며, 손으로 쓴 숫자 이미지의 중심을 맞추고 같은 크기로 가공하는 후처리를 거친 상태로 제공된다.
+the MNIST(Modified National Institute of Standards and Technology) database of hadwritten digits 는 Yann LeCun(Courant Institute, NYU), Corinna Cortes(Google Labs, New York), Christopher J.C. Burges(Microsoft Research, Redmond) 가 제공하는 학습용 데이터이다. NIST 데이터의 하위 분류에 속하며, 손으로 쓴 숫자 이미지의 중심을 맞추고 같은 크기로 가공하는 후처리를 거친 상태로 제공된다.
 
 데이터는 벡터(vector)와 다차원행렬(multidimensional matrix)의 형태로 제공된다.
 다음과 같은 총 4개의 파일로 구성되어 있다.
