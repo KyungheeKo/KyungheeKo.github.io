@@ -15,7 +15,7 @@ the MNIST database of hadwritten digits 는 Yann LeCun(Courant Institute, NYU), 
 - t10k-labels-idx1-ubyte:  test set labels
 
 총 60000개의 training data와 10000개의 test data로 구성되어 있다.
-label의 값은 0~9까지의 숫자이다.
-각각의 image는 28×28 행렬이며, 각 항의 값은 0~255까지의 숫자이다. 0이 흰색(background), 255가 검은색(foreground)을 의미한다. 흑백 데이터이므로 다른 색으로는 표현되지 않는다.
+label의 값은 0-9 범위의 숫자이다.
+각각의 image는 28×28 행렬이며, 각 항의 값은 0-255  숫자이다. 0이 흰색(background), 255가 검은색(foreground)을 의미한다. 흑백 데이터이므로 다른 색으로는 표현되지 않는다.
 
 출처 : [MNIST](http://yann.lecun.com/exdb/mnist/)
