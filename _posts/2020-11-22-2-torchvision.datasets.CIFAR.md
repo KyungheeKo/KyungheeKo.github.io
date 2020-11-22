@@ -23,25 +23,125 @@ CIFAR(Canadian Institute For Advanced Research) dataset은 Alex Krizhevsky, Vino
 
 ###CIFAR-100
 분류 항목은 다음과 같으며, 각 대분류마다 3000개, 소분류마다 600개의 이미지를 포함한다.
-- aquatic mammals	: beaver, dolphin, otter, seal, whale
-- fish : aquarium fish, flatfish, ray, shark, trout
-- flowers : orchids, poppies, roses, sunflowers, tulips
-- food containers : bottles, bowls, cans, cups, plates
-- fruit and vegetables : apples, mushrooms, oranges, pears, sweet peppers
-- household electrical devices : clock, computer keyboard, lamp, telephone, television
-- household furniture : bed, chair, couch, table, wardrobe
-- insects : bee, beetle, butterfly, caterpillar, cockroach
-- large carnivores : bear, leopard, lion, tiger, wolf
-- large man-made outdoor things : bridge, castle, house, road, skyscraper
-- large natural outdoor scenes : cloud, forest, mountain, plain, sea
-- large omnivores and herbivores : camel, cattle, chimpanzee, elephant, kangaroo
-- medium-sized mammals : fox, porcupine, possum, raccoon, skunk
-- non-insect invertebrates : crab, lobster, snail, spider, worm
-- people : baby, boy, girl, man, woman
-- reptiles : crocodile, dinosaur, lizard, snake, turtle
-- small mammals : hamster, mouse, rabbit, shrew, squirrel
-- trees : maple, oak, palm, pine, willow
-- vehicles 1 : bicycle, bus, motorcycle, pickup truck, train
-- vehicles 2 : lawn-mower, rocket, streetcar, tank, tractor
+- aquatic mammals
+  - beaver
+  - dolphin
+  - otter
+  - seal
+  - whale
+- fish
+  - aquarium fish
+  - flatfish
+  - ray
+  - shark
+  - trout
+- flowers
+  - orchids
+  - poppies
+  - roses
+  - sunflowers
+  - tulips
+- food containers
+  - bottles
+  - bowls
+  - cans
+  - cups
+  - plates
+- fruit and vegetables
+  - apples
+  - mushrooms
+  - oranges
+  - pears
+  - sweet peppers
+- household electrical devices
+  - clock
+  - computer keyboard
+  - lamp
+  - telephone
+  - television
+- household furniture
+  - bed
+  - chair
+  - couch
+  - table
+  - wardrobe
+- insects
+  - bee
+  - beetle
+  - butterfly
+  - caterpillar
+  - cockroach
+- large carnivores
+  - bear
+  - leopard
+  - lion
+  - tiger
+  - wolf
+- large man-made outdoor things
+  - bridge
+  - castle
+  - house
+  - road
+  - skyscraper
+- large natural outdoor scenes
+  - cloud
+  - forest
+  - mountain
+  - plain
+  - sea
+- large omnivores and herbivores
+  - camel
+  - cattle
+  - chimpanzee
+  - elephant
+  - kangaroo
+- medium-sized mammals
+  - fox
+  - porcupine
+  - possum
+  - raccoon
+  - skunk
+- non-insect invertebrates
+  - crab
+  - lobster
+  - snail
+  - spider
+  - worm
+- people
+  - baby
+  - boy
+  - girl
+  - man
+  - woman
+- reptiles
+  - crocodile
+  - dinosaur
+  - lizard
+  - snake
+  - turtle
+- small mammals
+  - hamster
+  - mouse
+  - rabbit
+  - shrew
+  - squirrel
+- trees
+  - maple
+  - oak
+  - palm
+  - pine
+  - willow
+- vehicles 1
+  - bicycle
+  - bus
+  - motorcycle
+  - pickup truck
+  - train
+- vehicles 2
+  - lawn-mower
+  - rocket
+  - streetcar
+  - tank
+  - tractor
 
 출처 : [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html)
