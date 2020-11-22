@@ -8,7 +8,7 @@ CIFAR(Canadian Institute For Advanced Research) dataset은 Alex Krizhevsky, Vino
 
 각각의 이미지는 32×32 컬러 이미지로, 총 개수는 60000개로 50000개의 train data 와 10000개의 test data로 구성되어 있다.
 
-###CIFAR-10
+### CIFAR-10
 분류 항목은 다음과 같으며, 각 항목마다 6000개의 이미지를 포함한다.
 - airplane										
 - automobile										
@@ -21,7 +21,7 @@ CIFAR(Canadian Institute For Advanced Research) dataset은 Alex Krizhevsky, Vino
 - ship										
 - truck
 
-###CIFAR-100
+### CIFAR-100
 분류 항목은 다음과 같으며, 각 대분류마다 3000개, 소분류마다 600개의 이미지를 포함한다.
 - aquatic mammals
   - beaver
