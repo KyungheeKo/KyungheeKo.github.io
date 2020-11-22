@@ -6,7 +6,7 @@ tagline: "CIFAR Dataset 개요"
 
 CIFAR(Canadian Institute For Advanced Research) dataset은 Alex Krizhevsky, Vinod Nair, Geoffrey Hinton 이 제공하는 학습용 데이터이다. [80 million tiny images dataset](http://groups.csail.mit.edu/vision/TinyImages/) 의 하위 분류에 속하며, CIFAR-10과 CIFAR-100은 각각 10개, 100개의 범주로 이미지를 구분해 제공한다.
 
-각각의 이미지는 32×32 컬러 이미지로, 총 개수는 60000개로 50000개의 train data 와 10000개의 test data로 구성되어 있다.
+각각의 이미지는 32×32 컬러 이미지로, 0-255의 RGB값을 각각 분리해 총 3개의 2차원 행렬로 표현된다. 이미지 총 개수는 60000개로 50000개의 train data 와 10000개의 test data로 구성되어 있다.
 
 ### CIFAR-10
 분류 항목은 다음과 같으며, 각 항목마다 6000개의 이미지를 포함한다.
