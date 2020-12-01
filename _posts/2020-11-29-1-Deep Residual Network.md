@@ -4,7 +4,7 @@ title: "Deep Residual Network"
 tagline: "Deep Residual Network 개념과 적용"
 ---
 
-이 포스트에서는 Deep Residual Network의 개념에 대해 Deep Residual Learning for Image Recognition 논문의 내용을 간단하게 정리하고 이를 적용한 [Pytorch Tutorial](https://github.com/yunjey/pytorch-tutorial.git) 코드를 분석해본다.
+이 포스트에서는 Deep Residual Network의 개념에 대해 Deep Residual Learning for Image Recognition 논문의 내용을 간단하게 정리한다.
 
 ![resnet1](https://github.com/KyungheeKo/KyungheeKo.github.io/blob/KyungheeKo/assets/img/resnet/resnet1.png?raw=true)
 
