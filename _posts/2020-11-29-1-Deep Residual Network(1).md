@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Deep Residual Network"
-tagline: "Deep Residual Network 개념과 적용"
+title: "Deep Residual Network (1)"
+tagline: "Deep Residual Network 개념"
 ---
 
 이 포스트에서는 Deep Residual Network의 개념에 대해 Deep Residual Learning for Image Recognition 논문의 내용을 간단하게 정리한다.
