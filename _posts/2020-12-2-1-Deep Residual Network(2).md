@@ -40,14 +40,12 @@ transform = transforms.Compose([
     transforms.ToTensor()])
 ```
 학습에 사용될 이미지를 전처리하는 모듈을 미리 정의해준다.
-- torchvision.transforms.Compose(transforms) : Transform objects list를 입력으로 받아 이들을 묶어서 순차적으로 실행해주는 함수이다. 단, torchscript를 지원하지 않으므로 필요한 경우에는 같은 기능을 하는 torch.nn.Sequential 을 사용하도록 하자.
-- torchvision.transforms.Pad(padding, fill=0, padding_mode='constant') : 이미지의 상하좌우에 입력한 설정값만큼 padding을 삽입해주는 함수이다.
-- torchvision.transforms.RandomHorizontalFlip(p=0.5) : 입력된 확률 값만큼 random하게 이미지를 좌우반전 시키는 함수이다.
-- torchvision.transforms.RandomCrop(size, padding=None, pad_if_needed=False, fill=0, padding_mode='constant') : 입력된 사이즈에 맞춰 이미지를 random하게 잘라주는 함수이다.
-- torchvision.transforms.ToTensor : 최종 처리된 데이터를 Tensor 데이터로 변환해주는 함수이다.  
-.  
-<!---->
-.  
+torchvision.transforms.Compose(transforms) : Transform objects list를 입력으로 받아 이들을 묶어서 순차적으로 실행해주는 함수이다. 단, torchscript를 지원하지 않으므로 필요한 경우에는 같은 기능을 하는 torch.nn.Sequential 을 사용하도록 하자.  
+torchvision.transforms.Pad(padding, fill=0, padding_mode='constant') : 이미지의 상하좌우에 입력한 설정값만큼 padding을 삽입해주는 함수이다.  
+torchvision.transforms.RandomHorizontalFlip(p=0.5) : 입력된 확률 값만큼 random하게 이미지를 좌우반전 시키는 함수이다.  
+torchvision.transforms.RandomCrop(size, padding=None, pad_if_needed=False, fill=0, padding_mode='constant') : 입력된 사이즈에 맞춰 이미지를 random하게 잘라주는 함수이다.  
+torchvision.transforms.ToTensor : 최종 처리된 데이터를 Tensor 데이터로 변환해주는 함수이다.  
+  <br>
 ```python
 train_dataset = torchvision.datasets.CIFAR10(root='../../data/',
                                              train=True, 
