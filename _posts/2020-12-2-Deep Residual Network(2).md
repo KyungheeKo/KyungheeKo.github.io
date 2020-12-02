@@ -149,14 +149,14 @@ model = ResNet(ResidualBlock, [2, 2, 2]).to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 ```
-criterion 과 optimizer를 정의한다. 사용되는 함수에는 여러가지가 있으나, 여기서는 CrossEntropyLoss 와 Adam을 사용하기로 한다.
+criterion 과 optimizer를 정의한다. 사용되는 함수에는 여러가지가 있으나, 여기서는 CrossEntropyLoss 와 Adam을 사용하기로 한다.  
 <br>
 ```python
 def update_lr(optimizer, lr):    
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
 ```
-learning rate를 업데이트 하기 위한 함수를 정의한다.
+learning rate를 업데이트 하기 위한 함수를 정의한다.  
 <br>
 ```python
 total_step = len(train_loader)
@@ -201,12 +201,12 @@ with torch.no_grad():
 
     print('Accuracy of the model on the test images: {} %'.format(100 * correct / total))
 ```
-학습된 결과를 일반적인 경우에도 적용할 수 있는지 알아보기 위해 test 데이터를 이용해 최종 검증을 진행한다. 이 때에는 parameter를 갱신할 필요가 없는 test 데이터 이기 때문에 model.eval()과 with torch.no_grad()를 사용해준다. 검증을 마치면 최종적으로 정확도를 출력한다.
+학습된 결과를 일반적인 경우에도 적용할 수 있는지 알아보기 위해 test 데이터를 이용해 최종 검증을 진행한다. 이 때에는 parameter를 갱신할 필요가 없는 test 데이터 이기 때문에 model.eval()과 with torch.no_grad()를 사용해준다. 검증을 마치면 최종적으로 정확도를 출력한다.  
 <br>
 ```python
 torch.save(model.state_dict(), 'resnet.ckpt')
 ```
-결과가 만족스럽다면, 현재 상태를 저장할 수 있다. torch.save 함수를 이용해 state를 저장해둔다. 후에 다른 파일에서도 이 학습된 모델의 상태를 불러와서 다른 데이터를 분류하는 데에 사용할 수 있다.
+결과가 만족스럽다면, 현재 상태를 저장할 수 있다. torch.save 함수를 이용해 state를 저장해둔다. 후에 다른 파일에서도 이 학습된 모델의 상태를 불러와서 다른 데이터를 분류하는 데에 사용할 수 있다.  
 <br>
 
 ---
