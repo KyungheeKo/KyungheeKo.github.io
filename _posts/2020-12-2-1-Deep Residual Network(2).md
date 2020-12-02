@@ -45,8 +45,9 @@ transform = transforms.Compose([
 - torchvision.transforms.RandomHorizontalFlip(p=0.5) : 입력된 확률 값만큼 random하게 이미지를 좌우반전 시키는 함수이다.
 - torchvision.transforms.RandomCrop(size, padding=None, pad_if_needed=False, fill=0, padding_mode='constant') : 입력된 사이즈에 맞춰 이미지를 random하게 잘라주는 함수이다.
 - torchvision.transforms.ToTensor : 최종 처리된 데이터를 Tensor 데이터로 변환해주는 함수이다.  
-  <br>
+.  
 <!---->
+.
 ```python
 train_dataset = torchvision.datasets.CIFAR10(root='../../data/',
                                              train=True, 
