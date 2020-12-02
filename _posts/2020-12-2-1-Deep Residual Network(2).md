@@ -212,13 +212,13 @@ torch.save(model.state_dict(), 'resnet.ckpt')
 ---
 
 <출처>  
-[Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. (2016). Deep Residual Learning for Image Recognition. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, 770-778](https://arxiv.org/pdf/1512.03385.pdf)  
+- [Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. (2016). Deep Residual Learning for Image Recognition. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, 770-778](https://arxiv.org/pdf/1512.03385.pdf)  
 
-[Pytorch Tutorial](https://github.com/yunjey/pytorch-tutorial.git)  
+- [Pytorch Tutorial](https://github.com/yunjey/pytorch-tutorial.git)  
 
-[Pytorch Tutorial - Deep Residual Network](https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py)  
+- [Pytorch Tutorial - Deep Residual Network](https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/deep_residual_network/main.py)  
 
-[Pytorch/vision](https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py)  
+- [Pytorch/vision](https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py)  
 
-[Pytorch Docs - torchvision.transforms](https://pytorch.org/docs/stable/torchvision/transforms.html)  
+- [Pytorch Docs - torchvision.transforms](https://pytorch.org/docs/stable/torchvision/transforms.html)  
 
