@@ -47,7 +47,7 @@ transform = transforms.Compose([
 - torchvision.transforms.ToTensor : 최종 처리된 데이터를 Tensor 데이터로 변환해주는 함수이다.  
 .  
 <!---->
-.
+.  
 ```python
 train_dataset = torchvision.datasets.CIFAR10(root='../../data/',
                                              train=True, 
